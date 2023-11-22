@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Reader</title>
+</head>
+<body>
+    <label for="fileInput">Subir EPUB o PDF</label>
+    <input type="file" id="fileInput" accept=".epub, .pdf">
+    <div id="viewer"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+    <script src="epub.js-master/src/epub.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
