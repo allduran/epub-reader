@@ -1,34 +1,13 @@
-# epub-reader
+# EPUB Reader
 
-An Electron application with React
+EPUB Reader is a desktop application designed for reading EPUB eBooks. Built using Electron and React, this application provides a rich user experience for viewing and managing eBooks on your desktop.
 
-## Recommended IDE Setup
+## Features
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- **Cross-Platform:** Works on Windows, macOS, and Linux.
+- **EPUB Support:** View EPUB files with support for navigation and text formatting.
+- **User-Friendly Interface:** Simple and intuitive interface for reading eBooks.
+- **Bookmarking:** Save your reading progress and return to it later.
 
-## Project Setup
-
-### Install
-
-```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
